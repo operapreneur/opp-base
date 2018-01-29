@@ -1,115 +1,49 @@
 > Change is the only constant.
 > -Heraclitus
 
-These methods, libraries, frameworks, etc., are ever evolving along with my philosophy behind using them. This repository should be utilized as a study, a conversation point and, for me, a recorded history of my process and pursuit of perfection.
+The methods, docs, snippets, libraries, frameworks, etc., are ever evolving along with my philosophy behind using them. This repository will be utilized as a study, a conversation point and, for me, a recorded history of my process and pursuit of perfection.
 
 > Within the pursuit of perfection lies the desire to become enlightened or changed. If that impulse is not present within the work, then the work is inherently pointless.
 
 ---
 
-# Building a digital brand, product or application
+# Development Approach
 
-A cradle to grave overview - not always in great detail.
+My grandfather was a mechanic and entrepreneur and my father a cement finisher. They passed on their love of solving problems and building things to me. However, when I've helped them out I always repeated the phrase, **'work smart, not hard'**, in response to the way they approached their work.
 
-## Strategy
+My grandmothers and mother encouraged/nurtured my creative side. They were the reason that I became a musician and opera singer, specifically. As a musician, I developed a keen sense of observing and reacting to micro and macro moments in live performance. Music is a complex language on paper and **requires both technique, collaboration, and creativity.**
 
-- R&D: gather, understand and evaluate
-  - Competitive Analysis
-  - Content Audit
-  - Current Data/analytics
-- UX strategy (focus being on user-centered)
-  - Create personas
-  - Mental Modals: is based on belief, not facts
-    - Create verbs like find, do, discover, learn, recommend
-    - Creates a story
-    - Defines content
-- UX blueprint
-  - Simplify and reduce touch points
-  - Map your service design - looking at all the different touch points
-    - [Creating A Blueprint](http://www.redassociates.com/perspectives-posts/2015/10/2/great-customer-experiences-creating-a-blueprint-for-an-improved-customer-experience)
-    - [The Anatomy of an Experience Map](http://adaptivepath.org/ideas/the-anatomy-of-an-experience-map/)
-- Information Architecture
-- UX design
-  - Wireframes/prototype
-- User Testing
-- Content Strategy
-- KPI
+The combination of these life experiences continue to influence my approach to development. I am constantly exploring and adapting my process as a developer to fit the project at hand.
 
-## Design System
 
-**"A [design system](https://medium.freecodecamp.com/how-to-construct-a-design-system-864adbf2a117#.wub5o39cf) is an evolving ruleset governing the composition of a product."**
-- Example design system: [Google's Material design](https://material.io/)
-- [iOS Human Interface Guidelines](https://developer.apple.com/ios/human-interface-guidelines/overview/design-principles/)
+**Table of Contents**
+- [Design Systems](#Design Systems)
+- [CSS](#CSS)
 
-### Baseline
 
-- CSS Reset
-- Normalize.css
-- Variables
-  - Spacing: **8dp** square baseline grid for mobile, tablet, and desktop ([why](https://builttoadapt.io/intro-to-the-8-point-grid-system-d2573cde8632#.1e5fcysyy))
-  - Typography
-    - Type scale
-    - Letter spacing
-  - Color
-  - Shadows
-  - Border radius
-  - Grid
-  - Helpers
-    - Alignment
-    - Floats
-    - Hide/Show
-    - No-wrap
-    - Truncation
-  - Media
-  - Transitions
+A cradle to grave overview - not always in great detail - through the lens of a developer and entrepreneur at heart.
 
-### Elements
+- [Strategy methods](https://github.com/operapreneur/opp-base/blob/master/docs/strategy.md)
+- [UX methods](https://github.com/operapreneur/opp-base/blob/master/docs/ux.md)
 
-- Badges
-- Buttons
-- Breadcrumbs
-- Forms
-  - Autocomplete
-  - Character count
-  - Checkbox
-  - Datepicker
-  - Disabled Style
-  - Error
-  - File input
-  - Icon
-  - Input
-  - Label
-  - Placeholder
-  - Radio button
-  - Range/Slider
-  - Select
-  - Switch
-  - Textarea
-- Icons
-- Lists
-  - Counters
-  - Unique Bullets
-- Scrollbar
-- Tables
-- Preloader
 
-### Components
+### Design Systems
 
-- Cards
-- Chips
-- Collections
-- Navbar
+Design systems, style guides, and pattern libraries are a cornerstone of the rapidly changing web. The benefits are well-discussed in [Brad Frost's Atomic Design](https://github.com/operapreneur/opp-base):
 
-### Modules
+- Consistency and cohesion
+- Shared vocabulary
+- Education
+- Empathetic workflow
+- Testing
+- Speed
+- Caring about the future
 
-- Footer
-- Header
-- Hero
+// [More Design system discussions](https://github.com/operapreneur/opp-base/blob/master/docs/design-systems.md)
 
-### Layouts
 
-- Profile
+### CSS
 
-### Templates
+Using SASS is a must have in every project. I have nothing against LESS and find it interesting that it is in Javascript but the majority of teams I've worked for always use SASS.
 
-- Profile
+I've laid out the philosophy behind my [SASS folder structure and CSS methodology.](https://github.com/operapreneur/opp-base/blob/master/docs/css.md)
