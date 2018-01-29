@@ -17,7 +17,7 @@ The combination of these life experiences continue to influence my approach to d
 
 
 **Table of Contents**
-- [Design Systems](#Design Systems)
+- [Design Systems](#design-systems)
 - [CSS](#CSS)
 
 
